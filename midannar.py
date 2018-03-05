@@ -26,4 +26,4 @@ def error404(error):
     return "What the fuck are you doing here whippersnapper"
 def fyrir(id):
     return template('fyrir.tpl', data=gogn, id=id)
-run()
+run(host='0.0.0.0', port=os.environ.get('PORT'))
