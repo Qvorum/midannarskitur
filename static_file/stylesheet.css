@@ -1,0 +1,26 @@
+::selection{
+    background-color: maroon;
+    color: aqua;
+}
+body{
+    background-color: gray;
+}
+.rammi{
+    border: 5px groove maroon;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+.texti{
+    font-family: cursive;
+    color: maroon;
+    margin: 0 auto;
+    text-align: center;
+}
+.myndir h3{
+    margin: 0 auto;
+    display: inline-flex;
+}
+.rammi:hover{
+    background-color: black;
+}
